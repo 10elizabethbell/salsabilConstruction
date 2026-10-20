@@ -20,6 +20,24 @@
         ],
         "createdAt": "2026-10-20T15:40:59.725Z",
         "reason": "Claude triage: detector sees only fixed text sizes 14-20px; headings are clamp() 30-80px Cal Sans, so the real scale is 14/16/18/20/30-48/42-80"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "6px",
+        "createdAt": "2026-10-20T15:46:11.092Z",
+        "reason": "Claude triage: focus-ring corner rounding only, not a surface radius"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "17px",
+        "createdAt": "2026-10-20T15:46:11.156Z",
+        "reason": "Claude triage: lower bound of the hero promise clamp(17px,4.7vw,20px), documented in DESIGN.md prose"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "20px",
+        "createdAt": "2026-10-20T15:46:11.217Z",
+        "reason": "Claude triage: desktop header phone number and promise max, documented in DESIGN.md (Label Display, 20px on desktop)"
       }
     ]
   }
