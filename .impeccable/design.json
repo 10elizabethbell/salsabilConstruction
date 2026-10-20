@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T15:45:29+00:00",
+  "title": "Design System: Salsabil Construction",
+  "extensions": {
+    "colorMeta": {
+      "safety-orange": {
+        "role": "primary",
+        "displayName": "Safety Orange",
+        "canonical": "oklch(66.8% 0.208 39.7)",
+        "tonalRamp": [
+          "oklch(15% 0.125 39.7)",
+          "oklch(25% 0.208 39.7)",
+          "oklch(35% 0.208 39.7)",
+          "oklch(45% 0.208 39.7)",
+          "oklch(55% 0.208 39.7)",
+          "oklch(68% 0.208 39.7)",
+          "oklch(82% 0.125 39.7)",
+          "oklch(95% 0.125 39.7)"
+        ]
+      },
+      "safety-orange-bright": {
+        "role": "primary",
+        "displayName": "Bright Orange",
+        "canonical": "oklch(72.5% 0.181 45.3)",
+        "tonalRamp": [
+          "oklch(15% 0.109 45.3)",
+          "oklch(25% 0.181 45.3)",
+          "oklch(35% 0.181 45.3)",
+          "oklch(45% 0.181 45.3)",
+          "oklch(55% 0.181 45.3)",
+          "oklch(68% 0.181 45.3)",
+          "oklch(82% 0.109 45.3)",
+          "oklch(95% 0.109 45.3)"
+        ]
+      },
+      "safety-orange-ink": {
+        "role": "primary",
+        "displayName": "Orange Ink",
+        "canonical": "oklch(50.3% 0.152 40.5)",
+        "tonalRamp": [
+          "oklch(15% 0.091 40.5)",
+          "oklch(25% 0.152 40.5)",
+          "oklch(35% 0.152 40.5)",
+          "oklch(45% 0.152 40.5)",
+          "oklch(55% 0.152 40.5)",
+          "oklch(68% 0.152 40.5)",
+          "oklch(82% 0.091 40.5)",
+          "oklch(95% 0.091 40.5)"
+        ]
+      },
+      "steel-navy": {
+        "role": "neutral",
+        "displayName": "Steel Navy",
+        "canonical": "oklch(32.2% 0.073 258.8)",
+        "tonalRamp": [
+          "oklch(15% 0.044 258.8)",
+          "oklch(25% 0.073 258.8)",
+          "oklch(35% 0.073 258.8)",
+          "oklch(45% 0.073 258.8)",
+          "oklch(55% 0.073 258.8)",
+          "oklch(68% 0.073 258.8)",
+          "oklch(82% 0.044 258.8)",
+          "oklch(95% 0.044 258.8)"
+        ]
+      },
+      "deep-navy": {
+        "role": "neutral",
+        "displayName": "Deep Navy",
+        "canonical": "oklch(24.8% 0.055 258.6)",
+        "tonalRamp": [
+          "oklch(15% 0.033 258.6)",
+          "oklch(25% 0.055 258.6)",
+          "oklch(35% 0.055 258.6)",
+          "oklch(45% 0.055 258.6)",
+          "oklch(55% 0.055 258.6)",
+          "oklch(68% 0.055 258.6)",
+          "oklch(82% 0.033 258.6)",
+          "oklch(95% 0.033 258.6)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(97.3% 0.007 268.5)",
+        "tonalRamp": [
+          "oklch(15% 0.004 268.5)",
+          "oklch(25% 0.007 268.5)",
+          "oklch(35% 0.007 268.5)",
+          "oklch(45% 0.007 268.5)",
+          "oklch(55% 0.007 268.5)",
+          "oklch(68% 0.007 268.5)",
+          "oklch(82% 0.004 268.5)",
+          "oklch(95% 0.004 268.5)"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0.0)",
+          "oklch(25% 0.000 0.0)",
+          "oklch(35% 0.000 0.0)",
+          "oklch(45% 0.000 0.0)",
+          "oklch(55% 0.000 0.0)",
+          "oklch(68% 0.000 0.0)",
+          "oklch(82% 0.000 0.0)",
+          "oklch(95% 0.000 0.0)"
+        ]
+      },
+      "field-mist": {
+        "role": "neutral",
+        "displayName": "Field Mist",
+        "canonical": "oklch(94.1% 0.014 258.3)",
+        "tonalRamp": [
+          "oklch(15% 0.008 258.3)",
+          "oklch(25% 0.014 258.3)",
+          "oklch(35% 0.014 258.3)",
+          "oklch(45% 0.014 258.3)",
+          "oklch(55% 0.014 258.3)",
+          "oklch(68% 0.014 258.3)",
+          "oklch(82% 0.008 258.3)",
+          "oklch(95% 0.008 258.3)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(24.8% 0.055 258.6)",
+        "tonalRamp": [
+          "oklch(15% 0.033 258.6)",
+          "oklch(25% 0.055 258.6)",
+          "oklch(35% 0.055 258.6)",
+          "oklch(45% 0.055 258.6)",
+          "oklch(55% 0.055 258.6)",
+          "oklch(68% 0.055 258.6)",
+          "oklch(82% 0.033 258.6)",
+          "oklch(95% 0.033 258.6)"
+        ]
+      },
+      "body-slate": {
+        "role": "neutral",
+        "displayName": "Body Slate",
+        "canonical": "oklch(32.4% 0.045 260.1)",
+        "tonalRamp": [
+          "oklch(15% 0.027 260.1)",
+          "oklch(25% 0.045 260.1)",
+          "oklch(35% 0.045 260.1)",
+          "oklch(45% 0.045 260.1)",
+          "oklch(55% 0.045 260.1)",
+          "oklch(68% 0.045 260.1)",
+          "oklch(82% 0.027 260.1)",
+          "oklch(95% 0.027 260.1)"
+        ]
+      },
+      "soft-slate": {
+        "role": "neutral",
+        "displayName": "Soft Slate",
+        "canonical": "oklch(45.9% 0.043 262.5)",
+        "tonalRamp": [
+          "oklch(15% 0.026 262.5)",
+          "oklch(25% 0.043 262.5)",
+          "oklch(35% 0.043 262.5)",
+          "oklch(45% 0.043 262.5)",
+          "oklch(55% 0.043 262.5)",
+          "oklch(68% 0.043 262.5)",
+          "oklch(82% 0.026 262.5)",
+          "oklch(95% 0.026 262.5)"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "On Dark",
+        "canonical": "oklch(97.3% 0.006 260)",
+        "tonalRamp": [
+          "oklch(15% 0.004 260.0)",
+          "oklch(25% 0.006 260.0)",
+          "oklch(35% 0.006 260.0)",
+          "oklch(45% 0.006 260.0)",
+          "oklch(55% 0.006 260.0)",
+          "oklch(68% 0.006 260.0)",
+          "oklch(82% 0.004 260.0)",
+          "oklch(95% 0.004 260.0)"
+        ]
+      },
+      "on-dark-soft": {
+        "role": "neutral",
+        "displayName": "On Dark Soft",
+        "canonical": "oklch(86.7% 0.031 260.7)",
+        "tonalRamp": [
+          "oklch(15% 0.019 260.7)",
+          "oklch(25% 0.031 260.7)",
+          "oklch(35% 0.031 260.7)",
+          "oklch(45% 0.031 260.7)",
+          "oklch(55% 0.031 260.7)",
+          "oklch(68% 0.031 260.7)",
+          "oklch(82% 0.019 260.7)",
+          "oklch(95% 0.019 260.7)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(16,33,59,.12)",
+        "tonalRamp": [
+          "oklch(15% 0.033 258.6)",
+          "oklch(25% 0.055 258.6)",
+          "oklch(35% 0.055 258.6)",
+          "oklch(45% 0.055 258.6)",
+          "oklch(55% 0.055 258.6)",
+          "oklch(68% 0.055 258.6)",
+          "oklch(82% 0.033 258.6)",
+          "oklch(95% 0.033 258.6)"
+        ]
+      },
+      "focus-blue": {
+        "role": "tertiary",
+        "displayName": "Focus Blue",
+        "canonical": "oklch(50.2% 0.164 259)",
+        "tonalRamp": [
+          "oklch(15% 0.098 259.0)",
+          "oklch(25% 0.164 259.0)",
+          "oklch(35% 0.164 259.0)",
+          "oklch(45% 0.164 259.0)",
+          "oklch(55% 0.164 259.0)",
+          "oklch(68% 0.164 259.0)",
+          "oklch(82% 0.098 259.0)",
+          "oklch(95% 0.098 259.0)"
+        ]
+      },
+      "error-red": {
+        "role": "tertiary",
+        "displayName": "Error Red",
+        "canonical": "oklch(50.1% 0.178 28.7)",
+        "tonalRamp": [
+          "oklch(15% 0.107 28.7)",
+          "oklch(25% 0.178 28.7)",
+          "oklch(35% 0.178 28.7)",
+          "oklch(45% 0.178 28.7)",
+          "oklch(55% 0.178 28.7)",
+          "oklch(68% 0.178 28.7)",
+          "oklch(82% 0.107 28.7)",
+          "oklch(95% 0.107 28.7)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero heading only; white on steel navy; letters bounce in once on load."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "One per band; may end on one orange accent word."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service rows and the Instagram link card."
+      },
+      "label-display": {
+        "displayName": "Label (Cal Sans)",
+        "purpose": "Buttons, form labels and legends, the header phone number."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "One supporting sentence under a headline, max 40ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, inputs, chips."
+      },
+      "label": {
+        "displayName": "Eyebrow label",
+        "purpose": "Eyebrow pills only (owner-chosen), on a few key headings."
+      }
+    },
+    "shadows": [
+      {
+        "name": "float-lift",
+        "value": "0 10px 28px rgba(8,20,40,.3)",
+        "purpose": "The floating text circle only."
+      }
+    ],
+    "textures": [
+      {
+        "name": "line-texture",
+        "value": "repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)",
+        "purpose": "Hero navy, deep-navy bands and footer."
+      }
+    ],
+    "motion": [
+      {
+        "name": "letter-in",
+        "value": "1s cubic-bezier(.34,1.56,.64,1), 20ms stagger per letter, from translateX(50px) and opacity 0",
+        "purpose": "Hero heading bounce-in, once on load; owner-chosen; off under reduced motion."
+      },
+      {
+        "name": "rise",
+        "value": "opacity and transform .4s ease-out, from translateY(12px)",
+        "purpose": "Fade-up for content that starts below the first screen; visible at rest."
+      },
+      {
+        "name": "float-in",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1), from translateY(120px)",
+        "purpose": "Floating text circle entrance after the hero scrolls away."
+      },
+      {
+        "name": "state",
+        "value": ".2s (buttons, arrows), .15s (fields, chips); press scale(.98) over .12s",
+        "purpose": "Hover, focus and press state changes."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "760px",
+        "purpose": "Gutter 40px, sections 96px, two-column service rows, buttons side by side."
+      },
+      {
+        "name": "desktop",
+        "value": "1024px",
+        "purpose": "Two-column splits for trust, quote and close bands; three-across steps; sticky quote header."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Safety Orange pill with Ink text; the main call to action.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Get a quote</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display,'Cal Sans',system-ui,sans-serif);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}.ds-btn:active{transform:scale(.98)}.ds-btn-primary{background:#f8580a;color:#10213b;border-color:#f8580a}.ds-btn-primary:hover{background:#ff7a33;border-color:#ff7a33}.ds-btn-primary:focus-visible{outline:3px solid #1f5fbf;outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined pill for navy grounds, paired beside the primary.",
+      "html": "<div style=\"background:#1b3358;padding:24px\"><a class=\"ds-btn-ghost\" href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Text Sam</a></div>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 'Cal Sans',system-ui,sans-serif;text-decoration:none;background:transparent;color:#f4f7fb;border:2px solid rgba(244,247,251,.7);transition:background-color .2s,border-color .2s,transform .12s}.ds-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)}.ds-btn-ghost:focus-visible{outline:3px solid #ff7a33;outline-offset:3px}.ds-btn-ghost:active{transform:scale(.98)}"
+    },
+    {
+      "name": "Eyebrow Pill",
+      "kind": "custom",
+      "refersTo": "eyebrow",
+      "description": "Owner-chosen label above a few key headings; orange dot, never clickable.",
+      "html": "<p class=\"ds-eyebrow\">Our services</p>",
+      "css": ".ds-eyebrow{display:inline-flex;align-items:center;gap:10px;margin:0;font:500 14px/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.02em;color:#10213b;background:rgba(16,33,59,.06);padding:9px 14px;border-radius:999px}.ds-eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:#f8580a}"
+    },
+    {
+      "name": "Job Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Multi-select pills for the type of job; selected fills Ink.",
+      "html": "<div class=\"ds-chips\"><input type=\"checkbox\" id=\"ds-c1\" checked><label for=\"ds-c1\">Renovation</label><input type=\"checkbox\" id=\"ds-c2\"><label for=\"ds-c2\">Kitchen or bath</label></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:10px}.ds-chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0}.ds-chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:999px;background:#e6ecf5;border:2px solid transparent;font:16px/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#10213b;cursor:pointer;transition:border-color .15s,background-color .15s,color .15s}.ds-chips label:hover{border-color:#1f5fbf}.ds-chips input:focus-visible+label{outline:3px solid #1f5fbf;outline-offset:2px}.ds-chips input:checked+label{background:#10213b;color:#fff}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Field Mist input with a Cal Sans label; border turns Focus Blue on focus.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-name\">Your name</label><input id=\"ds-name\" type=\"text\" placeholder=\"First name is fine\"></div>",
+      "css": ".ds-field{display:grid;gap:8px;max-width:420px}.ds-field label{font:400 18px/1.2 'Cal Sans',system-ui,sans-serif;color:#10213b}.ds-field input{width:100%;box-sizing:border-box;font:16px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#10213b;background:#e6ecf5;border:2px solid transparent;border-radius:10px;padding:13px 14px;min-height:52px;caret-color:#1b3358;transition:border-color .15s}.ds-field input::placeholder{color:#4b5870}.ds-field input:hover,.ds-field input:focus{outline:none;border-color:#1f5fbf}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Whole-row link on navy; only the arrow disc changes on hover or focus.",
+      "html": "<div style=\"background:#1b3358;padding:0 24px\"><a class=\"ds-row\" href=\"#\">Kitchens &amp; bathrooms<span class=\"ds-arrow\" aria-hidden=\"true\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></div>",
+      "css": ".ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px;padding:12px 0;text-decoration:none;color:#f4f7fb;font:400 clamp(22px,6vw,28px)/1.15 'Cal Sans',system-ui,sans-serif;border-top:1px solid rgba(255,255,255,.14);border-bottom:1px solid rgba(255,255,255,.14);outline:none}.ds-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:#f4f7fb;transition:background-color .2s,color .2s}.ds-row:hover .ds-arrow{background:#f8580a;color:#10213b}.ds-row:focus-visible .ds-arrow{background:#f8580a;color:#10213b;outline:3px solid #ff7a33;outline-offset:3px}"
+    },
+    {
+      "name": "Instagram Link Card",
+      "kind": "card",
+      "refersTo": "link-card",
+      "description": "Ink-filled 24px card linking to the work on Instagram; arrow disc carries state.",
+      "html": "<a class=\"ds-ig\" href=\"#\"><span>Click to see our work.<small>@salsabil_construction on Instagram</small></span><span class=\"ds-ig-arrow\" aria-hidden=\"true\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>",
+      "css": ".ds-ig{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:80px;max-width:520px;padding:16px 16px 16px 22px;border-radius:24px;background:#10213b;color:#f4f7fb;text-decoration:none;font:400 22px/1.2 'Cal Sans',system-ui,sans-serif;outline:none}.ds-ig small{display:block;margin-top:4px;font:400 14px/1.3 -apple-system,BlinkMacSystemFont,sans-serif;color:#c8d4e8}.ds-ig-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.12);color:#f4f7fb;transition:background-color .2s,color .2s}.ds-ig:hover .ds-ig-arrow{background:#f8580a;color:#10213b}.ds-ig:focus-visible .ds-ig-arrow{background:#f8580a;color:#10213b;outline:3px solid #ff7a33;outline-offset:3px}"
+    },
+    {
+      "name": "Step Disc",
+      "kind": "custom",
+      "refersTo": "step-disc",
+      "description": "Orange numbered circle beside a How-it-works step on deep navy.",
+      "html": "<div class=\"ds-step\"><span class=\"ds-disc\">1</span><div><b>Tell Sam about the job.</b><span>Text, call, or use the form below.</span></div></div>",
+      "css": ".ds-step{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;background:#10213b;background-image:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);color:#c8d4e8;padding:24px;font:16px/1.7 -apple-system,BlinkMacSystemFont,sans-serif}.ds-disc{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#f8580a;color:#10213b;font:400 20px/1 'Cal Sans',system-ui,sans-serif}.ds-step b{display:block;font:400 21px/1.2 'Cal Sans',system-ui,sans-serif;color:#f4f7fb;margin-top:4px}.ds-step span:not(.ds-disc){display:block;margin-top:4px}"
+    },
+    {
+      "name": "Floating Text Circle",
+      "kind": "custom",
+      "refersTo": "float-circle",
+      "description": "The one floating contact: a 60px orange circle that opens a pre-written text.",
+      "html": "<a class=\"ds-float\" href=\"#\" aria-label=\"Text Sam for a quote\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-float{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:#f8580a;color:#10213b;box-shadow:0 10px 28px rgba(8,20,40,.3);transition:transform .35s cubic-bezier(.2,.8,.2,1)}.ds-float:focus-visible{outline:3px solid #1f5fbf;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Job-Site Flyer, Calmed Down",
+    "overview": "The system is the contractor's own flyer translated into a quiet, phone-first page. The flyer's logo (black hammer and saw over an orange-roofed house) supplies everything: its orange becomes the single accent fill, and its black becomes two steel navies laid against an off-white paper ground. The page is a stack of full-bleed horizontal bands (paper, steel navy, deep navy) that alternate light and dark so each section reads as one plain statement, with no photography and no ornament beyond a faint diagonal line texture on the darkest bands.\n\nDensity is low and deliberate. Every band holds one heading, at most one supporting line, and one kind of action. Type does the heavy lifting: Cal Sans headings at a confident size, with the last word or phrase often picked out in orange, over a plain system body face. Motion is limited to three owner-chosen moves: the hero heading's letters bounce in once, content below the first screen fades up 12px as it arrives, and a single orange text circle slides up once the hero has scrolled away.\n\nAll three moves, the eyebrow pills and the band palette were chosen by the owner and are part of the system on purpose. They are not leftovers to clean up.",
+    "keyCharacteristics": [
+      "Full-bleed bands alternating paper, steel navy and deep navy; the ground is never black.",
+      "One accent: the logo's safety orange, used as a fill, with ink-navy text on it.",
+      "Cal Sans (weight 400) for every heading, button, label and number; system sans for running text.",
+      "Pills and circles for anything you touch; 24px cards for containers; no hard corners on interactive elements.",
+      "Flat surfaces; the only shadow belongs to the floating text circle.",
+      "Every action ends in a call or text to one phone number."
+    ],
+    "rules": [
+      {
+        "name": "The One Orange Rule",
+        "body": "Safety Orange appears as a fill and nowhere else. When orange must be text, use Orange Ink on light grounds and Bright Orange on navy. Text on an orange fill is always Ink, never white.",
+        "section": "colors"
+      },
+      {
+        "name": "The Never-Black Rule",
+        "body": "No surface or text is pure black. The logo's black is translated into Steel Navy and Deep Navy; the logo artwork itself is used as supplied (full-color on paper, the white version on navy).",
+        "section": "colors"
+      },
+      {
+        "name": "The Separate Focus Rule",
+        "body": "Focus is blue (Focus Blue) on light grounds and Bright Orange on dark ones, always a 3px outline offset 3px, so keyboard focus is never mistaken for the accent fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The Single Weight Rule",
+        "body": "Cal Sans is only ever set at 400. Hierarchy comes from size, never from bolding the display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Accent Word Rule",
+        "body": "A headline may end on one orange word or short phrase (\"NY & NJ.\", \"build.\", \"works.\"), kept on one line. One accent per headline, and not every headline gets one.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Lift Rule",
+        "body": "Nothing in the page flow casts a shadow. A shadow means \"this floats over the content\", and only the text circle does that.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Arrow-Only Rule",
+        "body": "Rows and the link card never change background on hover; the arrow disc carries all of the state.",
+        "section": "components"
+      },
+      {
+        "name": "The One Circle Rule",
+        "body": "Mobile contact is one floating circle, never a sticky bottom bar and never a second floating button.",
+        "section": "components"
+      },
+      {
+        "name": "The Visible-at-Rest Rule",
+        "body": "Motion only adds to content that is already there. Reduced motion turns off the letter bounce, the fade-up, smooth scrolling and all button and circle transitions.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do build new sections as full-bleed bands drawn from paper, steel navy and deep navy, with the line texture only on the hero and deep-navy surfaces.",
+      "Do keep Safety Orange as a fill with Ink text on it; use Orange Ink or Bright Orange when orange has to be text.",
+      "Do set every heading, button, label and number in Cal Sans at weight 400, and running text in the system stack at 16/1.7.",
+      "Do make interactive elements pills or circles at least 44px (56px for buttons), with state shown by a 2px border, a 3px focus outline, or the arrow disc.",
+      "Do route every new action to the phone number in `CONFIG.PHONE`, by call or by text.",
+      "Do give any new motion a reduced-motion fallback and keep content visible at rest."
+    ],
+    "donts": [
+      "Don't put white text on Safety Orange, or use Safety Orange itself as text on paper (it fails contrast; that is what Orange Ink is for).",
+      "Don't use pure black for surfaces or text.",
+      "Don't add shadows to cards, buttons or bands; the floating circle is the only lifted element.",
+      "Don't add a sticky bottom contact bar or a second floating button.",
+      "Don't put an eyebrow pill on every heading or make one look clickable.",
+      "Don't bold Cal Sans or add a second display face.",
+      "Don't use orange for focus rings on light grounds; use Focus Blue."
+    ]
+  }
+}
