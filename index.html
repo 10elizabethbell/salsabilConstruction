@@ -71,7 +71,7 @@ section{padding:64px 0}
 .accent{color:var(--orange-ink)}
 .on-navy .accent,.on-deep .accent,.hero .accent{color:var(--orange-2)}
 .head{display:grid;gap:16px;justify-items:start;max-width:640px}
-.lede{font-size:clamp(17px,4.6vw,19px);color:var(--soft);max-width:40ch}
+.lede{font-size:clamp(16px,4.4vw,18px);color:var(--soft);max-width:40ch}
 .on-navy .lede,.on-deep .lede{color:var(--on-dark-soft)}
 
 /* Eyebrow: a few key headings only. A label, not a button. */
@@ -91,7 +91,7 @@ section{padding:64px 0}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:76px;padding-top:max(8px,env(safe-area-inset-top));padding-bottom:8px}
 .brand{display:block;text-decoration:none}
 .brand img{height:58px;width:auto}
-.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
+.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 18px/1 var(--display);text-decoration:none;white-space:nowrap}
 .tel svg{width:18px;height:18px;flex:none;color:var(--orange-ink)}
 
 /* ---------- Hero: plain navy with the line texture (no job photos supplied) ---------- */
@@ -108,17 +108,13 @@ section{padding:64px 0}
 .actions{display:grid;gap:12px;width:100%;margin-top:4px}
 
 /* ---------- Trust ---------- */
-.claims{list-style:none;margin:28px 0 0;padding:0;display:grid}
-.claims li{display:flex;align-items:center;gap:16px;padding:16px 0;font:400 clamp(20px,5.4vw,24px)/1.15 var(--display);color:var(--ink)}
-.claims li+li{border-top:1px solid var(--line)}
-.claims svg{width:40px;height:40px;flex:none;color:var(--orange-ink)}
 .arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(16,33,59,.07);color:var(--ink);transition:background-color .2s,color .2s}
 .arrow svg{width:18px;height:18px}
 .ig{margin-top:28px;display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:80px;padding:16px 16px 16px 22px;border-radius:var(--r-card);background:var(--ink);color:var(--on-dark);text-decoration:none;font:400 clamp(19px,5.2vw,22px)/1.2 var(--display)}
 .ig:hover,.ig:focus-visible{outline:none;box-shadow:none}
 .ig .lbl{display:flex;align-items:center;gap:14px;text-wrap:balance}
 .ig .lbl svg{width:30px;height:30px;flex:none;color:var(--orange-2)}
-.ig small{display:block;margin-top:4px;font:400 15px/1.3 var(--text);color:var(--on-dark-soft)}
+.ig small{display:block;margin-top:4px;font:400 14px/1.3 var(--text);color:var(--on-dark-soft)}
 .ig .arrow{background:rgba(255,255,255,.12);color:var(--on-dark)}
 .ig:focus-visible .arrow{background:var(--orange);color:var(--ink);outline:3px solid var(--orange-2);outline-offset:3px}
 
@@ -163,20 +159,19 @@ form .btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:3p
 .after{font-size:14px;color:var(--soft)}
 .sent{color:var(--ink);font-weight:600;display:grid;gap:12px}
 .sent-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.btn-soft{background:var(--field);color:var(--ink);border-color:transparent;padding:0 14px;font-size:17px}
+.btn-soft{background:var(--field);color:var(--ink);border-color:transparent;padding:0 14px;font-size:16px}
 #msgOut{min-height:0;font-weight:400}
 .sent a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
 @media (max-width:380px){.chips label{padding:0 14px}}
 
 /* ---------- Close ---------- */
 .close .mark{width:220px;height:auto;margin-bottom:24px}
-.close .who{margin-top:14px;font-size:clamp(18px,5vw,20px);color:var(--on-dark-soft)}
 .bigtel{display:inline-flex;align-items:center;gap:12px;margin-top:28px;font:400 clamp(30px,9vw,52px)/1 var(--display);text-decoration:none;color:var(--on-dark);min-height:56px;white-space:nowrap}
 .bigtel svg{width:.8em;height:.8em;flex:none;color:var(--orange-2)}
 .area{margin-top:22px;max-width:40ch}
 
 /* ---------- Footer ---------- */
-footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft);padding:48px 0 calc(96px + env(safe-area-inset-bottom));font-size:16px}
+footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft);padding:48px 0 calc(48px + env(safe-area-inset-bottom));font-size:16px}
 footer .wrap{display:grid;gap:14px}
 .nw{white-space:nowrap}
 footer nav{display:flex;flex-wrap:wrap;gap:6px 22px}
@@ -209,9 +204,8 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
   .ig{max-width:520px}
 }
 @media (min-width:1024px){
-  .split{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto 1fr;column-gap:64px;align-items:start}
-  .split .claims{grid-column:2;grid-row:1/3;margin-top:0}
-  .split .ig{grid-column:1;grid-row:2}
+  .split{display:grid;grid-template-columns:1.1fr 1fr;column-gap:64px;align-items:center}
+  .split .ig{grid-column:2;grid-row:1;margin-top:0;max-width:none}
   .ask .wrap{grid-template-columns:1fr 1.2fr;gap:64px;align-items:start}
   .ask .head{position:sticky;top:40px}
   .close .wrap{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end}
@@ -245,7 +239,7 @@ footer a:hover{color:var(--orange-2)}
 THESIS: A six-trade remodeler whose whole public life was one Facebook group ad gets a page that says what they build, where, and lets a homeowner text Sam in one tap.
 OWN-WORLD: The flyer's logo: black hammer and saw over an orange-roofed house. Its orange (#f8580a) is the one accent fill; the black becomes steel navies (#1b3358, #10213b) on off-white paper, because the page ground is never black. Cal Sans display, system body at 16/1.7.
 STORY: The visitor sees who remodels across NY & NJ, reads the trades they cover in their own words and their own promise (quality work, honest service, professional results), checks the jobs on Instagram, and texts Sam for a quote.
-FIRST VIEWPORT: Paper header with the Salsabil logo left and the tap-to-call number top right. Navy hero with the faint line texture: eyebrow "Renovations & remodeling", "Remodeling done right in NY & NJ.", their tagline as the promise, two pill buttons (Get a quote, Text Sam).
+FIRST VIEWPORT: Paper header with the Salsabil logo left and the tap-to-call number top right. Navy hero with the faint line texture: eyebrow "Home renovation contractor", "Remodeling done right in NY & NJ.", their tagline as the promise, two pill buttons (Get a quote, Text Sam).
 FORM: calm band system without photos: no job photos were reachable (Instagram posts need a login; the only image is the flyer), so the hero is the plain textured navy band. Runner-up worlds for an opt-in signature motion are in HANDOFF.md.
 -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -263,7 +257,7 @@ FORM: calm band system without photos: no job photos were reachable (Instagram p
 <main id="top">
 <section class="hero" id="hero" aria-labelledby="h1">
   <div class="wrap hero-copy">
-    <p class="eyebrow">Renovations &amp; remodeling</p>
+    <p class="eyebrow">Home renovation contractor</p>
     <h1 id="h1">Remodeling done right in <span class="accent">NY &amp; NJ.</span></h1>
     <p class="promise">Quality work. Honest service. Professional results. <b>Ask for Sam.</b></p>
     <div class="actions">
@@ -279,11 +273,6 @@ FORM: calm band system without photos: no job photos were reachable (Instagram p
       <h2 id="h-trust">From the framing to the final coat.</h2>
       <p class="lede" style="margin-top:16px">We do the framing, drywall, tile, floors and paint, so one call to Sam covers the whole job. We work in your home with care and precision, and we leave it the way we'd want ours left.</p>
     </div>
-    <ul class="claims">
-      <li class="rise"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19L20 6l15 13"/><path d="M9 16v18h22V16"/><path d="M15 25l4 4 7-8"/></svg>Quality work</li>
-      <li class="rise"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8h26v18H18l-7 6v-6H7z"/><path d="M14 15h12M14 20h8"/></svg>Honest service</li>
-      <li class="rise"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4l13 5v9c0 8.5-5.6 15.3-13 18-7.4-2.7-13-9.5-13-18V9z"/><path d="M14 20l4.5 4.5L27 16"/></svg>Professional results</li>
-    </ul>
     <a class="ig rise" href="https://www.instagram.com/salsabil_construction/" rel="noopener">
       <span class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg><span>Click to see our work.<small>@salsabil_construction on Instagram</small></span></span>
       <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
@@ -313,7 +302,7 @@ FORM: calm band system without photos: no job photos were reachable (Instagram p
     <h2 id="h-how" class="rise">How it <span class="accent">works.</span></h2>
     <ol class="steps">
       <li class="rise"><div><b>Tell Sam about the job.</b><span>Text, call, or use the form below.</span></div></li>
-      <li class="rise"><div><b>Get your quote.</b><span>You know the price before we start.</span></div></li>
+      <li class="rise"><div><b>Get your quote.</b><span>Sam gets back to you with a price.</span></div></li>
       <li class="rise"><div><b>We do the work.</b><span>With care and precision, start to finish.</span></div></li>
     </ol>
   </div>
@@ -322,9 +311,9 @@ FORM: calm band system without photos: no job photos were reachable (Instagram p
 <section class="on-paper ask" id="ask" aria-labelledby="h-ask">
   <div class="wrap">
     <div class="head rise">
-      <p class="eyebrow">Text or call</p>
-      <h2 id="h-ask">Get a quote</h2>
-      <p class="lede">Pick the job and add your name. It goes to Sam as a text.</p>
+      <p class="eyebrow">Quote by text</p>
+      <h2 id="h-ask">Get a quote.</h2>
+      <p class="lede">Pick the job and add your name.</p>
     </div>
     <form id="quoteForm" class="rise" novalidate>
       <fieldset class="field">
@@ -367,8 +356,7 @@ FORM: calm band system without photos: no job photos were reachable (Instagram p
   <div class="wrap">
     <div class="rise">
       <img class="mark" src="img/logo-white.webp" width="440" height="234" alt="" loading="lazy">
-      <h2 id="h-close">Salsabil Construction</h2>
-      <p class="who">Call or text Sam.</p>
+      <h2 id="h-close">Call or text Sam.</h2>
       <p class="area">Working across New York and New Jersey. Not sure we cover your town? Call and ask.</p>
     </div>
     <a class="bigtel rise" href="tel:+13472439333"><svg aria-hidden="true"><use href="#i-phone"/></svg>(347) 243-9333</a>

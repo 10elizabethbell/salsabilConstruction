@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T15:38:36.826Z",
+        "reason": "Ellie's pitch-site house style (calm-photo-style.md item 2, set 2026-10-19) requires this faint 135deg band texture"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T15:40:59.725Z",
+        "reason": "Claude triage: detector sees only fixed text sizes 14-20px; headings are clamp() 30-80px Cal Sans, so the real scale is 14/16/18/20/30-48/42-80"
+      }
+    ]
+  }
+}
