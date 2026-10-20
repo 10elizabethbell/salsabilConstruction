@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Salsabil Construction · Renovations and remodeling in NY &amp; NJ</title>
+<meta name="description" content="Salsabil Construction: renovations, remodeling, kitchens and bathrooms, flooring and tile, painting and drywall, framing and carpentry across New York and New Jersey. Call or text Sam: (347) 243-9333.">
+<meta name="theme-color" content="#f4f6fb">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Salsabil Construction · Remodeling done right in NY &amp; NJ">
+<meta property="og:description" content="Quality work. Honest service. Professional results. Call or text Sam: (347) 243-9333.">
+<meta property="og:url" content="https://10elizabethbell.github.io/salsabilConstruction/">
+<meta property="og:image" content="https://10elizabethbell.github.io/salsabilConstruction/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Salsabil Construction","slogan":"Quality Work. Honest Service. Professional Results.","telephone":"+1-347-243-9333","areaServed":["New York","New Jersey"],"url":"https://10elizabethbell.github.io/salsabilConstruction/","image":"https://10elizabethbell.github.io/salsabilConstruction/og.png","sameAs":["https://www.instagram.com/salsabil_construction/"]}</script>
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap">
+<style>
+/* ---------- Tokens ---------- */
+:root{
+  /* off-white paper, two steel navies, the logo's safety orange */
+  --paper:#f4f6fb;       /* page ground */
+  --light:#e9eef6;       /* light band */
+  --card:#ffffff;
+  --field:#e6ecf5;       /* inputs and chips on the white form card */
+  --ink:#10213b;         /* headings, text on orange */
+  --body:#26344b;        /* running text on light */
+  --soft:#4b5870;        /* secondary text on light */
+  --navy:#1b3358;        /* hero, services, close */
+  --deep:#10213b;        /* how it works, footer (line texture) */
+  --on-dark:#f4f7fb;
+  --on-dark-soft:#c8d4e8;
+  --orange:#f8580a;      /* the logo's orange: fills only; text on it is --ink */
+  --orange-2:#ff7a33;    /* hover fill, and orange words on navy */
+  --orange-ink:#a83c08;  /* orange as text on light (5.9:1) */
+  --line:rgba(16,33,59,.12);
+  --focus:#1f5fbf;       /* form hover/focus outline, distinct from the orange fill */
+  --error:#b3261e;
+  --texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);
+  --display:"Cal Sans","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --text:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  --r-card:24px;--r-field:10px;--pill:999px;
+  --gutter:20px;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--paper)}
+body{margin:0;font:16px/1.7 var(--text);color:var(--body);background:var(--paper)}
+::selection{background:var(--orange);color:var(--ink)}
+img,svg{display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}
+.on-navy :focus-visible,.on-deep :focus-visible,.hero :focus-visible,footer :focus-visible{outline-color:var(--orange-2)}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 var(--gutter)}
+h1,h2,h3{margin:0;font-family:var(--display);font-weight:400;line-height:1.08;letter-spacing:-.005em;color:var(--ink);text-wrap:balance}
+h2{font-size:clamp(30px,7.6vw,48px)}
+p{margin:0}
+
+/* ---------- Bands ---------- */
+section{padding:64px 0}
+.on-paper{background:var(--paper)}
+.on-light{background:var(--light)}
+.on-navy{background:var(--navy);color:var(--on-dark-soft)}
+.on-deep{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft)}
+.on-navy h2,.on-deep h2,.on-navy h3,.on-deep h3{color:var(--on-dark)}
+.accent{color:var(--orange-ink)}
+.on-navy .accent,.on-deep .accent,.hero .accent{color:var(--orange-2)}
+.head{display:grid;gap:16px;justify-items:start;max-width:640px}
+.lede{font-size:clamp(17px,4.6vw,19px);color:var(--soft);max-width:40ch}
+.on-navy .lede,.on-deep .lede{color:var(--on-dark-soft)}
+
+/* Eyebrow: a few key headings only. A label, not a button. */
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font:500 14px/1 var(--text);letter-spacing:.02em;color:var(--ink);background:rgba(16,33,59,.06);padding:9px 14px;border-radius:var(--pill)}
+.eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--orange)}
+.hero .eyebrow,.on-navy .eyebrow,.on-deep .eyebrow{color:var(--on-dark);background:rgba(255,255,255,.12)}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:var(--pill);font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}
+.btn:active{transform:scale(.98)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-primary{background:var(--orange);color:var(--ink);border-color:var(--orange)}
+.btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(244,247,251,.7)}
+
+/* ---------- Header ---------- */
+.top{background:var(--paper);color:var(--ink);position:relative;z-index:2}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:76px;padding-top:max(8px,env(safe-area-inset-top));padding-bottom:8px}
+.brand{display:block;text-decoration:none}
+.brand img{height:58px;width:auto}
+.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
+.tel svg{width:18px;height:18px;flex:none;color:var(--orange-ink)}
+
+/* ---------- Hero: plain navy with the line texture (no job photos supplied) ---------- */
+.hero{padding:0;position:relative;background-color:var(--navy);background-image:var(--texture);color:var(--on-dark);overflow:hidden}
+.hero-copy{position:relative;z-index:1;display:grid;gap:20px;justify-items:start;padding-top:56px;padding-bottom:68px}
+.hero h1{color:#fff;font-size:clamp(42px,12vw,80px);line-height:1.02;max-width:11ch}
+/* H1 bounce-in (after lpmr.co.uk): each letter slides in from 50px right with a slight overshoot, 20ms apart */
+.hero h1 .accent{white-space:nowrap}
+.hero h1 .w{display:inline-block;white-space:nowrap}
+.hero h1 .c{display:inline-block;opacity:0;transform:translateX(50px);animation:letter-in 1s cubic-bezier(.34,1.56,.64,1) forwards;animation-delay:calc(var(--i) * 20ms)}
+@keyframes letter-in{to{opacity:1;transform:none}}
+.promise{font-size:clamp(17px,4.7vw,20px);line-height:1.5;color:var(--on-dark-soft);max-width:30ch}
+.promise b{color:var(--on-dark);font-weight:600}
+.actions{display:grid;gap:12px;width:100%;margin-top:4px}
+
+/* ---------- Trust ---------- */
+.claims{list-style:none;margin:28px 0 0;padding:0;display:grid}
+.claims li{display:flex;align-items:center;gap:16px;padding:16px 0;font:400 clamp(20px,5.4vw,24px)/1.15 var(--display);color:var(--ink)}
+.claims li+li{border-top:1px solid var(--line)}
+.claims svg{width:40px;height:40px;flex:none;color:var(--orange-ink)}
+.arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(16,33,59,.07);color:var(--ink);transition:background-color .2s,color .2s}
+.arrow svg{width:18px;height:18px}
+.ig{margin-top:28px;display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:80px;padding:16px 16px 16px 22px;border-radius:var(--r-card);background:var(--ink);color:var(--on-dark);text-decoration:none;font:400 clamp(19px,5.2vw,22px)/1.2 var(--display)}
+.ig:hover,.ig:focus-visible{outline:none;box-shadow:none}
+.ig .lbl{display:flex;align-items:center;gap:14px;text-wrap:balance}
+.ig .lbl svg{width:30px;height:30px;flex:none;color:var(--orange-2)}
+.ig small{display:block;margin-top:4px;font:400 15px/1.3 var(--text);color:var(--on-dark-soft)}
+.ig .arrow{background:rgba(255,255,255,.12);color:var(--on-dark)}
+.ig:focus-visible .arrow{background:var(--orange);color:var(--ink);outline:3px solid var(--orange-2);outline-offset:3px}
+
+/* ---------- Services: each row is the link; only its arrow changes ---------- */
+.rows{list-style:none;margin:32px 0 0;padding:0;display:grid}
+.rows li{border-top:1px solid rgba(255,255,255,.14)}
+.rows li:last-child{border-bottom:1px solid rgba(255,255,255,.14)}
+.row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px;padding:12px 0;text-decoration:none;color:var(--on-dark);font:400 clamp(22px,6vw,28px)/1.15 var(--display)}
+.row:hover,.row:focus-visible{outline:none;background:none;box-shadow:none}
+.row .arrow{background:rgba(255,255,255,.1);color:var(--on-dark)}
+.row:focus-visible .arrow{background:var(--orange);color:var(--ink);outline:3px solid var(--orange-2);outline-offset:3px}
+
+/* ---------- How it works ---------- */
+.steps{list-style:none;margin:36px 0 0;padding:0;display:grid;gap:24px;counter-reset:s}
+.steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;counter-increment:s}
+.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--orange);color:var(--ink);font:400 20px/1 var(--display)}
+.steps b{display:block;font:400 21px/1.2 var(--display);color:var(--on-dark);margin-top:4px}
+.steps span{display:block;margin-top:4px}
+
+/* ---------- Form ---------- */
+.ask .wrap{display:grid;gap:28px}
+form{background:var(--card);border-radius:var(--r-card);padding:clamp(20px,5vw,32px);display:grid;gap:20px;max-width:600px}
+.field{display:grid;gap:8px;min-width:0}
+.field label,.field legend{font:400 18px/1.2 var(--display);color:var(--ink);padding:0}
+.field small{font:400 14px/1 var(--text);color:var(--soft);margin-left:4px}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+fieldset legend{margin-bottom:8px}
+input[type=text],textarea{width:100%;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:var(--r-field);padding:13px 14px;min-height:52px;caret-color:var(--navy);transition:border-color .15s}
+textarea{min-height:120px;resize:vertical}
+input::placeholder,textarea::placeholder{color:var(--soft)}
+input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0}
+.chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;margin:0;transition:border-color .15s,background-color .15s,color .15s}
+.chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:2px}
+.chips input:checked+label{background:var(--ink);color:#fff}
+.err{display:none;font-size:14px;color:var(--error)}
+.field.bad .err{display:block}
+.field.bad input[type=text],.field.bad textarea,.field.bad input[type=text]:focus,.field.bad textarea:focus{border-color:var(--error)}
+form .btn-primary{width:100%}
+form .btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.after{font-size:14px;color:var(--soft)}
+.sent{color:var(--ink);font-weight:600;display:grid;gap:12px}
+.sent-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btn-soft{background:var(--field);color:var(--ink);border-color:transparent;padding:0 14px;font-size:17px}
+#msgOut{min-height:0;font-weight:400}
+.sent a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
+@media (max-width:380px){.chips label{padding:0 14px}}
+
+/* ---------- Close ---------- */
+.close .mark{width:220px;height:auto;margin-bottom:24px}
+.close .who{margin-top:14px;font-size:clamp(18px,5vw,20px);color:var(--on-dark-soft)}
+.bigtel{display:inline-flex;align-items:center;gap:12px;margin-top:28px;font:400 clamp(30px,9vw,52px)/1 var(--display);text-decoration:none;color:var(--on-dark);min-height:56px;white-space:nowrap}
+.bigtel svg{width:.8em;height:.8em;flex:none;color:var(--orange-2)}
+.area{margin-top:22px;max-width:40ch}
+
+/* ---------- Footer ---------- */
+footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft);padding:48px 0 calc(96px + env(safe-area-inset-bottom));font-size:16px}
+footer .wrap{display:grid;gap:14px}
+.nw{white-space:nowrap}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 22px}
+footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-dark);text-decoration:none}
+
+/* ---------- Floating text circle (one circle, never a bottom bar) ---------- */
+.float{position:fixed;z-index:15;right:calc(16px + env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--orange);color:var(--ink);box-shadow:0 10px 28px rgba(8,20,40,.3);transform:translateY(120px);visibility:hidden;transition:transform .35s cubic-bezier(.2,.8,.2,1),visibility 0s .35s}
+.float.on{transform:none;visibility:visible;transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.float svg{width:26px;height:26px}
+.float:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:50%}
+
+/* ---------- Motion: one fade-up, only for things below the first screen ---------- */
+.js .rise{transition:opacity .4s ease-out,transform .4s ease-out}
+.js .rise.below{opacity:0;transform:translateY(12px)}
+
+/* ---------- Desktop ---------- */
+@media (min-width:760px){
+  :root{--gutter:40px}
+  .top .wrap{min-height:88px}
+  .brand img{height:68px}
+  .tel{font-size:20px}
+  section{padding:96px 0}
+  .hero-copy{padding-top:104px;padding-bottom:120px}
+  .hero h1{max-width:14ch}
+  .promise{max-width:none}
+  .actions{grid-auto-flow:column;justify-content:start;width:auto}
+  .actions .btn{min-width:240px}
+  .rows{grid-template-columns:1fr 1fr;column-gap:48px}
+  .rows li:nth-last-child(2){border-bottom:1px solid rgba(255,255,255,.14)}
+  .ig{max-width:520px}
+}
+@media (min-width:1024px){
+  .split{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto 1fr;column-gap:64px;align-items:start}
+  .split .claims{grid-column:2;grid-row:1/3;margin-top:0}
+  .split .ig{grid-column:1;grid-row:2}
+  .ask .wrap{grid-template-columns:1fr 1.2fr;gap:64px;align-items:start}
+  .ask .head{position:sticky;top:40px}
+  .close .wrap{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end}
+  .bigtel{margin-top:0}
+  .how .steps{grid-template-columns:repeat(3,1fr);gap:40px}
+}
+/* hover styles only where there is a real pointer, so taps don't leave them stuck on */
+@media (hover:hover){
+.tel:hover{color:var(--orange-ink)}
+.btn-primary:hover{background:var(--orange-2);border-color:var(--orange-2)}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)}
+.row:hover .arrow,.ig:hover .arrow{background:var(--orange);color:var(--ink)}
+input[type=text]:hover,textarea:hover{border-color:var(--focus)}
+.chips label:hover{border-color:var(--focus)}
+form .btn-primary:hover{outline:3px solid var(--focus);outline-offset:3px}
+.btn-soft:hover{outline:3px solid var(--focus);outline-offset:3px}
+.sent a:hover{color:var(--navy)}
+.bigtel:hover{color:var(--orange-2)}
+footer a:hover{color:var(--orange-2)}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .rise,.float,.btn{transition:none}
+  .js .rise.below{opacity:1;transform:none}
+  .hero h1 .c{animation:none;opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<!--
+THESIS: A six-trade remodeler whose whole public life was one Facebook group ad gets a page that says what they build, where, and lets a homeowner text Sam in one tap.
+OWN-WORLD: The flyer's logo: black hammer and saw over an orange-roofed house. Its orange (#f8580a) is the one accent fill; the black becomes steel navies (#1b3358, #10213b) on off-white paper, because the page ground is never black. Cal Sans display, system body at 16/1.7.
+STORY: The visitor sees who remodels across NY & NJ, reads the trades they cover in their own words and their own promise (quality work, honest service, professional results), checks the jobs on Instagram, and texts Sam for a quote.
+FIRST VIEWPORT: Paper header with the Salsabil logo left and the tap-to-call number top right. Navy hero with the faint line texture: eyebrow "Renovations & remodeling", "Remodeling done right in NY & NJ.", their tagline as the promise, two pill buttons (Get a quote, Text Sam).
+FORM: calm band system without photos: no job photos were reachable (Instagram posts need a login; the only image is the flyer), so the hero is the plain textured navy band. Runner-up worlds for an opt-in signature motion are in HANDOFF.md.
+-->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6 6l1.5-2.3L20 14.5V18a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="Salsabil Construction, back to top"><img src="img/logo.webp" width="520" height="276" alt="Salsabil Construction"></a>
+    <a class="tel" href="tel:+13472439333"><svg aria-hidden="true"><use href="#i-phone"/></svg>(347) 243-9333</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" id="hero" aria-labelledby="h1">
+  <div class="wrap hero-copy">
+    <p class="eyebrow">Renovations &amp; remodeling</p>
+    <h1 id="h1">Remodeling done right in <span class="accent">NY &amp; NJ.</span></h1>
+    <p class="promise">Quality work. Honest service. Professional results. <b>Ask for Sam.</b></p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#ask">Get a quote</a>
+      <a class="btn btn-ghost" href="sms:+13472439333?&amp;body=Hi%20Sam%2C%20I%20found%20your%20website.%20I'd%20like%20a%20quote%20for%3A%20"><svg aria-hidden="true"><use href="#i-chat"/></svg>Text Sam</a>
+    </div>
+  </div>
+</section>
+
+<section class="on-paper" aria-labelledby="h-trust">
+  <div class="wrap split">
+    <div class="rise">
+      <h2 id="h-trust">From the framing to the final coat.</h2>
+      <p class="lede" style="margin-top:16px">We do the framing, drywall, tile, floors and paint, so one call to Sam covers the whole job. We work in your home with care and precision, and we leave it the way we'd want ours left.</p>
+    </div>
+    <ul class="claims">
+      <li class="rise"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19L20 6l15 13"/><path d="M9 16v18h22V16"/><path d="M15 25l4 4 7-8"/></svg>Quality work</li>
+      <li class="rise"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8h26v18H18l-7 6v-6H7z"/><path d="M14 15h12M14 20h8"/></svg>Honest service</li>
+      <li class="rise"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4l13 5v9c0 8.5-5.6 15.3-13 18-7.4-2.7-13-9.5-13-18V9z"/><path d="M14 20l4.5 4.5L27 16"/></svg>Professional results</li>
+    </ul>
+    <a class="ig rise" href="https://www.instagram.com/salsabil_construction/" rel="noopener">
+      <span class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg><span>Click to see our work.<small>@salsabil_construction on Instagram</small></span></span>
+      <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
+    </a>
+  </div>
+</section>
+
+<section class="on-navy" id="services" aria-labelledby="h-services">
+  <div class="wrap">
+    <div class="head rise">
+      <p class="eyebrow">Our services</p>
+      <h2 id="h-services">What we <span class="accent">build.</span></h2>
+    </div>
+    <ul class="rows">
+      <li class="rise"><a class="row" href="#ask" data-pick="Renovation">Home renovations<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" href="#ask" data-pick="Kitchen or bath">Kitchens &amp; bathrooms<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" href="#ask" data-pick="Flooring or tile">Flooring &amp; tile<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" href="#ask" data-pick="Painting or drywall">Painting &amp; drywall<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" href="#ask" data-pick="Framing or carpentry">Framing &amp; carpentry<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" href="#ask" data-pick="Interior or exterior">Interior &amp; exterior<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="on-deep how" aria-labelledby="h-how">
+  <div class="wrap">
+    <h2 id="h-how" class="rise">How it <span class="accent">works.</span></h2>
+    <ol class="steps">
+      <li class="rise"><div><b>Tell Sam about the job.</b><span>Text, call, or use the form below.</span></div></li>
+      <li class="rise"><div><b>Get your quote.</b><span>You know the price before we start.</span></div></li>
+      <li class="rise"><div><b>We do the work.</b><span>With care and precision, start to finish.</span></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="on-paper ask" id="ask" aria-labelledby="h-ask">
+  <div class="wrap">
+    <div class="head rise">
+      <p class="eyebrow">Text or call</p>
+      <h2 id="h-ask">Get a quote</h2>
+      <p class="lede">Pick the job and add your name. It goes to Sam as a text.</p>
+    </div>
+    <form id="quoteForm" class="rise" novalidate>
+      <fieldset class="field">
+        <legend>What do you need? <small>(pick any)</small></legend>
+        <div class="chips">
+          <input type="checkbox" name="job" id="j1" value="Renovation"><label for="j1">Renovation</label>
+          <input type="checkbox" name="job" id="j2" value="Kitchen or bath"><label for="j2">Kitchen or bath</label>
+          <input type="checkbox" name="job" id="j3" value="Flooring or tile"><label for="j3">Flooring or tile</label>
+          <input type="checkbox" name="job" id="j4" value="Painting or drywall"><label for="j4">Painting or drywall</label>
+          <input type="checkbox" name="job" id="j5" value="Framing or carpentry"><label for="j5">Framing or carpentry</label>
+          <input type="checkbox" name="job" id="j6" value="Interior or exterior"><label for="j6">Other inside or outside work</label>
+        </div>
+      </fieldset>
+      <div class="field" id="f-name">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" autocomplete="name" maxlength="60" placeholder="First name is fine" aria-describedby="e-name">
+        <p class="err" id="e-name">Add your name so Sam knows who's texting.</p>
+      </div>
+      <div class="field">
+        <label for="where">Your town <small>(optional)</small></label>
+        <input type="text" id="where" name="where" autocomplete="address-level2" maxlength="60" placeholder="Your town or city">
+      </div>
+      <div class="field">
+        <label for="what">About the job <small>(optional)</small></label>
+        <textarea id="what" name="what" maxlength="600" placeholder="Which room, what you'd like changed, when you'd like it done…"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit"><svg aria-hidden="true"><use href="#i-chat"/></svg>Text this to Sam</button>
+      <div class="sent" id="sent" role="status" hidden>
+        <p>Didn't open your messages?</p>
+        <div class="sent-actions"><a class="btn btn-soft" id="openSms" href="sms:+13472439333">Open in Messages</a><button class="btn btn-soft" type="button" id="copyMsg">Copy message</button></div>
+        <textarea id="msgOut" readonly rows="3" aria-label="Your message"></textarea>
+        <p>Or call Sam at <a href="tel:+13472439333">(347) 243-9333</a>.</p>
+      </div>
+      <p class="after">Opens your messages with this written out.</p>
+    </form>
+  </div>
+</section>
+
+<section class="on-navy close" id="close" aria-labelledby="h-close">
+  <div class="wrap">
+    <div class="rise">
+      <img class="mark" src="img/logo-white.webp" width="440" height="234" alt="" loading="lazy">
+      <h2 id="h-close">Salsabil Construction</h2>
+      <p class="who">Call or text Sam.</p>
+      <p class="area">Working across New York and New Jersey. Not sure we cover your town? Call and ask.</p>
+    </div>
+    <a class="bigtel rise" href="tel:+13472439333"><svg aria-hidden="true"><use href="#i-phone"/></svg>(347) 243-9333</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Salsabil Construction · NY &amp; NJ · <span class="nw">(347) 243-9333</span></span>
+    <nav aria-label="Social">
+      <a href="https://www.instagram.com/salsabil_construction/" rel="noopener">Instagram</a>
+    </nav>
+  </div>
+</footer>
+
+<a class="float" id="float" href="sms:+13472439333?&amp;body=Hi%20Sam%2C%20I%20found%20your%20website.%20I'd%20like%20a%20quote%20for%3A%20" aria-label="Text Sam for a quote" tabindex="-1" aria-hidden="true"><svg aria-hidden="true"><use href="#i-chat"/></svg></a>
+
+<script>
+/* ===== Config ===== */
+var CONFIG = {
+  FLOAT: true,           // the floating text circle; false removes it
+  PHONE: '+13472439333', // texts and calls go here
+  NAME: 'Sam'
+};
+document.documentElement.classList.add('js');
+
+/* ===== Hero H1 bounce-in: split into letters (JS only, so no-JS and reduced motion keep the plain heading) ===== */
+(function(){
+  var h=document.getElementById('h1');
+  if(!h||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var plain=h.innerHTML,i=0,last=null;
+  h.setAttribute('aria-label',h.textContent.replace(/\s+/g,' ').trim());
+  function split(node,into){
+    [].slice.call(node.childNodes).forEach(function(n){
+      if(n.nodeType===3){
+        n.textContent.split(/(\s+)/).forEach(function(part){
+          if(!part)return;
+          if(/^\s+$/.test(part)){into.appendChild(document.createTextNode(' '));return}
+          var w=document.createElement('span');w.className='w';w.setAttribute('aria-hidden','true');
+          for(var k=0;k<part.length;k++){var c=document.createElement('span');c.className='c';c.style.setProperty('--i',i++);c.textContent=part[k];w.appendChild(c);last=c}
+          into.appendChild(w);
+        });
+      }else if(n.nodeType===1){var copy=n.cloneNode(false);split(n,copy);into.appendChild(copy)}
+    });
+  }
+  var frag=document.createDocumentFragment();split(h,frag);h.textContent='';h.appendChild(frag);
+  // once the last letter lands, put the plain heading back so kerning and text selection return
+  if(last)last.addEventListener('animationend',function(){h.innerHTML=plain;h.removeAttribute('aria-label')});
+})();
+
+/* ===== Quote form: composes a text to Sam ===== */
+(function(){
+  var form=document.getElementById('quoteForm');if(!form)return;
+  function val(id){return document.getElementById(id).value.trim()}
+  // tapping a service row ticks its chip
+  [].forEach.call(document.querySelectorAll('[data-pick]'),function(a){
+    a.addEventListener('click',function(){var c=form.querySelector('input[name=job][value="'+a.getAttribute('data-pick')+'"]');if(c)c.checked=true});
+  });
+  form.addEventListener('input',function(e){var f=e.target.closest('.field');if(f&&f.classList.contains('bad')&&e.target.value.trim()){f.classList.remove('bad');e.target.setAttribute('aria-invalid','false')}});
+  document.getElementById('copyMsg').addEventListener('click',function(){
+    var t=document.getElementById('msgOut'),b=this;
+    function done(){b.textContent='Copied'}
+    if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t.value).then(done,function(){t.select();try{document.execCommand('copy');done()}catch(_){}});
+    else{t.select();try{document.execCommand('copy');done()}catch(_){}}
+  });
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=val('name'),what=val('what'),where=val('where');
+    var says={'Renovation':'a home renovation','Kitchen or bath':'a kitchen or bathroom','Flooring or tile':'flooring or tile','Painting or drywall':'painting or drywall','Framing or carpentry':'framing or carpentry','Interior or exterior':'other interior or exterior work'};
+    var jobs=[].map.call(form.querySelectorAll('input[name=job]:checked'),function(c){return says[c.value]});
+    var f=document.getElementById('f-name'),n=document.getElementById('name');
+    f.classList.toggle('bad',!name);n.setAttribute('aria-invalid',name?'false':'true');
+    if(!name){n.focus();return}
+    var msg='Hi '+CONFIG.NAME+', this is '+name+'. I\'d like a quote';
+    if(jobs.length)msg+=' for '+(jobs.length>1?jobs.slice(0,-1).join(', ')+' and '+jobs[jobs.length-1]:jobs[0]);
+    msg+='.';
+    if(where)msg+=' I\'m in '+where+'.';
+    if(what)msg+=' '+what;
+    var href='sms:'+CONFIG.PHONE+'?&body='+encodeURIComponent(msg);
+    // show the fallback straight away: in-app browsers can block an sms: redirect that isn't a direct tap
+    document.getElementById('openSms').href=href;document.getElementById('msgOut').value=msg;
+    document.getElementById('sent').hidden=false;
+    location.href=href;
+  });
+})();
+
+/* ===== Floating text circle: shows after the hero, hides while the form is on screen ===== */
+(function(){
+  var fl=document.getElementById('float');if(!fl)return;
+  if(!CONFIG.FLOAT||!('IntersectionObserver' in window)){fl.remove();return}
+  var pastHero=false,formIn=false,hits=new Set();
+  function sync(){var on=pastHero&&!formIn&&!hits.size;fl.classList.toggle('on',on);fl.tabIndex=on?0:-1;fl.setAttribute('aria-hidden',on?'false':'true')}
+  new IntersectionObserver(function(es){pastHero=!es[0].isIntersecting;sync()},{threshold:.15}).observe(document.getElementById('hero'));
+  new IntersectionObserver(function(es){formIn=es[0].isIntersecting;sync()},{rootMargin:'-15% 0px -15% 0px'}).observe(document.getElementById('quoteForm'));
+  // step aside while a row arrow or the Instagram arrow is in the bottom strip where the circle sits
+  var strip=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)hits.add(e.target);else hits.delete(e.target)});sync()},{rootMargin:'-'+Math.max(0,innerHeight-110)+'px 0px 0px 0px'});
+  [].forEach.call(document.querySelectorAll('.row .arrow,.ig .arrow'),function(a){strip.observe(a)});
+  sync();
+})();
+
+/* ===== Fade-up: everything is visible at rest; only what starts below the first screen rises 12px in ===== */
+(function(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window))return;
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('below');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+  [].forEach.call(document.querySelectorAll('.rise'),function(el){if(el.getBoundingClientRect().top>innerHeight){el.classList.add('below');io.observe(el)}});
+})();
+</script>
+</body>
+</html>
